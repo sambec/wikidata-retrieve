@@ -1,6 +1,4 @@
-Voici un exemple structuré de fichier `README.md` pour votre projet Flask. Vous pouvez adapter les sections en fonction de vos besoins ou ajouter des détails spécifiques à votre approche.
 
----
 
 # Flask Wikidata Retrieval App
 
