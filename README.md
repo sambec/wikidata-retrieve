@@ -29,7 +29,7 @@ Cette application Flask permet de récupérer et d’afficher des informations s
 
 Avant de commencer, assurez-vous d’avoir installé les outils suivants :
 
-- **Python 3.7+**
+- **Python 3.10+**
 - **Pip** (gestionnaire de packages pour Python)
 
 ---
@@ -60,7 +60,7 @@ Avant de commencer, assurez-vous d’avoir installé les outils suivants :
 
 1. Exécutez l’application Flask :
    ```bash
-   python app.py
+   python run.py
    ```
 
 2. Accédez à l’application dans votre navigateur à l'adresse :
@@ -87,13 +87,16 @@ En cas d’erreur (par exemple, un identifiant invalide), un message tel que :
 ## Arborescence du projet
 
 ```plaintext
-<nom_du_depot>/
+wikidata-retrieve/
 │
-├── app.py               # Fichier principal de l'application Flask
-├── requirements.txt     # Liste des dépendances Python
-├── templates/           # Dossier contenant les fichiers HTML
-│   └── wikidata.html    # Template Jinja pour afficher les résultats
-└── README.md            # Documentation du projet
+├── app/                     # Dossier principal contenant l'application Flask
+│   ├── app.py               # Fichier principal de l'application Flask
+│   ├── config.py            # Fichier de configuration pour l'application
+│   └── templates/           # Dossier contenant les fichiers HTML
+│       └── wikidata.html    # Template Jinja pour afficher les résultats
+├── requirements.txt         # Liste des dépendances Python
+├── run.py                   # Fichier principal pour lancer l'application
+└── README.md                # Documentation du projet
 ```
 
 ---
@@ -114,7 +117,6 @@ En cas d’erreur (par exemple, un identifiant invalide), un message tel que :
 
 ---
 
-## Auteur
+## Crédits
 
-- **Nom** : [Sarah Ambec]
-
+Sarah Ambec avec l'aide de ChatGPT4 pour le cours de Python Flask de Maxime Challon en M2 Archives TNAH de l'Ecole des Chartes
